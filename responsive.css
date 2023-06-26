@@ -1,0 +1,203 @@
+@media only screen and (max-width:480px){
+    h1, .logo{
+        width: 100%;
+        left: 5%;
+        top: 2%;
+    }
+    button{
+        width: 20%;
+        height: 5%;
+        border-radius: 32px;
+        left: 75%;
+    }
+    nav, .textoaqui{
+        width: 100%;
+        left: 16px;
+        top: 152px;
+    }
+    .caja-texto, .texto{
+        width: 343px;
+        height: 624px;
+        left: 16px;
+        top: 152px;
+        border: none;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    .alerta-1{
+        display: flex;
+        flex-direction: column;
+        left: 16px;
+        top: 451px;
+    }
+    .alerta-2{
+        display: flex;
+        flex-direction: column;
+        left: 16px;
+        top: 770px;
+    }
+    .caja-botones{
+        width: 343px;
+        height: 158px;
+        left: 16px;
+        top: 485px;
+        flex-direction: column;
+    }
+    .caja-botones2{
+        width: 343px;
+        height: 158px;
+        left: 16px;
+        top: 800px;
+        flex-direction: column;
+    }
+    .btm-encriptar{
+        width: 100%;
+ 
+    }
+    .btm-desencriptar{
+        width: 100%;
+        margin-top: auto;
+    }
+    .nino{
+        display: none;
+    }
+    .caja-imagenes{
+        left: 20px;
+        top: 700px;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 350px;
+        height: 186px;
+        border-radius: 32px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);;
+    }
+    .caja-copia{
+        left: 20px;
+        top: 1000px;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 610px;
+        border-radius: 32px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);;
+    }
+    .copia{
+        line-height: 150%;
+        text-align: left;
+        font-size: 21px;
+    }
+    .caja-btocopia{
+        left: 70px;
+        top: 1500px;
+    }
+    .mensaje{
+        box-sizing: border-box;
+        margin: 32px 0px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+    h1, .logo{
+        left: 40px;
+        top: 73.4px;
+    }
+    button{
+        width: 20%;
+        height: 5%;
+        border-radius: 32px;
+        left: 70%;
+    }
+    nav, .textoaqui{
+        left: 40px;
+        top: 240px;
+    }
+    .caja-botones{
+        width: 90%;
+        left: 36px;
+        gap: 24px;
+        bottom: 237px;
+    }
+    .caja-botones2{
+        width: 90%;
+        height: 70px;
+        left: 40px;
+        top: 750px;
+    }
+    .nino, .mensaje{
+        display: none;
+    }
+    .caja-imagenes{
+        left: 36px;
+        top: 800px;
+        width: 90%;
+        height: 130px;
+        border-radius: 32px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);;
+    }
+    .mensaje2{
+        box-sizing: border-box;
+        margin: 30px 140px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mensaje3{
+        box-sizing: border-box;
+        margin: 30px 140px;
+        display: flex;
+        flex-direction: column;
+    }
+    .alerta-1{
+        display: flex;
+        flex-direction: column;
+        left: 36px;
+        bottom: 320px;
+        width: 50%;
+    }
+    .caja-texto, .texto{
+        position: absolute;
+        line-height: 150%;
+        font-size: 35px;
+        height: 340px;
+        left: 25px;
+        top: 15%;
+    }
+    .caja-copia{
+        left: 25px;
+        top: 880px;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 300px;
+        border-radius: 32px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);;
+    }
+    .copia{
+        line-height: 150%;
+        text-align: left;
+        font-size: 21px;
+        margin: 0 24px;
+    }
+    .caja-btocopia{
+        left: 70px;
+        top: 1070px;
+    }
+    .btm-copiar{
+        width: 600px;
+    }
+    .alerta-2{
+        display: flex;
+        flex-direction: column;
+        left: 36px;
+        bottom: 260px;
+        width: 55%;
+    }
+
+}

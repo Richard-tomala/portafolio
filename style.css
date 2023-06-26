@@ -1,0 +1,141 @@
+body{
+    background-color: #F3F5FC;
+}
+.logo{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+button{
+    position: absolute;
+    left: 800px;
+    top: 40px;
+}
+nav{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 220px;
+    top: 140px;
+}
+nav a{
+    font-family:sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+    color: #0A3871;
+}
+.caja-botones, .caja-botones2{
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 220px;
+    bottom: 72px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+.btm-encriptar{
+    width: 328px;
+    height: 67px;
+    background-color: blue;
+    color:aliceblue;
+    border-radius: 25px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.btm-desencriptar{
+    width: 328px;
+    height: 67px;
+    margin-left: auto;
+    border-radius: 25px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.alerta-1{
+    position: absolute;
+    left: 240px;
+    bottom: 155px;
+}
+.alerta-2{
+    position: absolute;
+    left: 220px;
+    bottom: 155px;
+}
+.caja-imagenes, .caja-copia{
+    position: absolute;
+    width: 350px;
+    height: 90%;
+    left: 1000px;
+    top: 40px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);;
+}
+.nino{
+    position: absolute;
+    text-align: center;
+    left: 7px;
+    margin-top: 25px;
+}
+.mensaje{
+    position: absolute;
+    text-align: center;
+    left: 7px;
+    margin-top: 400px;
+}
+.mensaje2, .mensaje3{
+    display: none;
+}
+.caja-texto{
+    position: absolute;
+    left: 220px;
+    top: 140px;  
+}
+::placeholder{
+    color: #0A3871;
+}
+.texto{
+    width: 680px;
+    height: 288px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    border: none;
+    resize: none;
+    color: #0A3871;
+}
+.copia{
+    margin: 0 18.5px;
+    margin-top: 32px;
+    width: 90%;
+    height: 65%;
+    font-weight: 400;
+    font-size: 18px;
+    resize: none;
+    border: none;
+    box-sizing: border-box; 
+}
+.caja-btocopia{
+    position: absolute;
+    left: 1054px;
+    bottom: 72px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.btm-copiar{
+    width: 250px;
+    height: 67px;
+    border-radius: 24px;
+}
+footer{
+
+}
+.ocultar{
+
+}
